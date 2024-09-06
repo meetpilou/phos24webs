@@ -1,0 +1,11 @@
+{
+  "footer": {
+    "text": "<p>Lerisque nec eros non, cursus efficitur massa. Suspendisse vel laoreet dolor, vel ultrices libe- ro. Etiam quam magna, sagittis eu libero ut, elementum placerat nisl. Vestibulum ac nunc ne- que. Praesent finibus aliquam nisi, id tincidunt lectus faucibus in. Morbi faucibus magna augue, et porttitor turpis hendrerit ut. Phasellus orci massa, placerat non consectetur ac, dapibus vi- tae lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus quis urna mauris. Nullam viverra purus augue, ac commodo erat lobortis ac.Curabitur gravida egestas arcu ut sagittis. Quisque ac pharetra nulla. Ut varius odio velit, sit amet sagittis nulla vestibulum sit amet. Sed in ipsum velit. Nulla dictum ex at neque conval- lis ornare. Donec posuere erat lorem, nec iaculis tortor accumsan sit amet. Nulla id elit id ri- sus consectetur vehicula. Nam vitae lacinia magna, quis fringilla velit. Nulla rutrum lec- tus in suscipit molestie. Vestibulum in nunc sagittis, blandit sem malesuada, lacinia nisl. Sed facilisis imperdiet libero ut fringilla.</p>",
+    "image": {
+      "alt": "Logo",
+      "src": "/images/_IM50023.jpg",
+      "width": 1928,
+      "height": 1285
+    }
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "metas": {
+    "title": "P2O5 - L'empreinte du phosphate",
+    "description": "",
+    "image": null
+  },
+  "other_languages": {
+    "fr": { "slug": "/" },
+    "en": { "slug": "/" }
+  },
+  "chapters": {
+    "chapter-0": {
+      "blocks": [
+        {
+          "content": {
+            "title": "L’empreinte du phosphate",
+            "text_1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "text_2": "Quisque ac pharetra nulla. Ut varius odio velit, sit amet sagittis nulla vestibulum sit amet. Sed in ipsum velit. Nulla dictum ex at neque conval- lis ornare. Donec posuere erat lorem, nec iaculis tortor accumsan sit amet. Nulla id elit id ri- sus consectetur vehicula. Nam vitae lacinia magna, quis fringilla velit. Nulla rutrum lec- tus in suscipit molestie. Vestibulum in nunc sagittis, blandit sem malesuada, lacinia nisl. Sed facilisis imperdiet libero ut fringilla. Ut mattis maximus odio, nec fermentum justo malesuada eu. Etiam venenatis eget neque a pulvinar. Quisque lacinia sagittis ante fringilla euismod. Donec arcu elit, eleifend at tortor a, finibus feugiat elit. Vivamus id eros massa.",
+            "image": {
+              "src": "/images/_IM59884.jpg",
+              "alt": "cover image",
+              "width": 1701,
+              "height": 1134
+            }
+          },
+          "type": "BlockCover"
+        }
+      ]
+    },
+    "chapter-1": {
+      "bookmark": {
+        "number": "01",
+        "title": "Du minerais à l'acide phosphorique",
+        "tagline": "Sénégal-Tunisie"
+      },
+      "blocks": [
+        {
+          "type": "BlockText",
+          "content": {
+            "text": "<p>Lerisque nec eros non, cursus efficitur massa. Suspendisse vel laoreet dolor, vel ultrices libe- ro. Etiam quam magna, sagittis eu libero ut, elementum placerat nisl. Vestibulum ac nunc ne- que. Praesent finibus aliquam nisi, id tincidunt lectus faucibus in. Morbi faucibus magna augue, et porttitor turpis hendrerit ut. Phasellus orci massa, placerat non consectetur ac, dapibus vi- tae lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus quis urna mauris. Nullam viverra purus augue, ac commodo erat lobortis ac. Curabitur gravida egestas arcu ut sagittis. Quisque ac pharetra nulla. Ut varius odio velit, sit amet sagittis nulla vestibulum sit amet. Sed in ipsum velit. Nulla dictum ex at neque conval- lis ornare. Donec posuere erat lorem, nec iaculis tortor accumsan sit amet. Nulla id elit id ri- sus consectetur vehicula. Nam vitae lacinia magna, quis fringilla velit. Nulla rutrum lec- tus in suscipit molestie. Vestibulum in nunc sagittis, blandit sem malesuada, lacinia nisl. Sed facilisis imperdiet libero ut fringilla.</p>",
+            "mode": "full"
+          }
+        },
+        {
+          "type": "BlockQuote",
+          "content": {
+            "text": "Nunc sagittis feugiat sce- lerisque. In eu sapien li- bero. Morbi et nisi quis justo facilisis finibus. Suspendisse arcu risus",
+            "author": "John Doe",
+            "source": "From the book: Lorem Ipsum",
+            "mode": "center"
+          }
+        },
+        {
+          "type": "BlockImageFull",
+          "content": {
+            "image": {
+              "src": "/images/chapter-1/slider-senegal/01_CAROUSSEL_001_SEN.jpg",
+              "alt": "cover image",
+              "width": 1701,
+              "height": 1134
+            }
+          }
+        },
+        {
+          "type": "BlockTextColumns",
+          "content": {
+            "texts": [
+              {
+                "text": "<p>Lerisque nec eros non, cursus efficitur massa. Suspendisse vel laoreet dolor, vel ultrices libe- ro. Etiam quam magna, sagittis eu libero ut, elementum placerat nisl. Vestibulum ac nunc ne- que. Praesent finibus aliquam nisi, id tincidunt lectus faucibus in. Morbi faucibus magna augue, et porttitor turpis hendrerit ut. Phasellus orci massa, placerat non consectetur ac, dapibus vi- tae lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus quis urna mauris. Nullam viverra purus augue, ac commodo erat lobortis.</p><p>Curabitur gravida egestas arcu ut sagittis. Quisque ac pharetra nulla. Ut varius odio velit, sit amet sagittis nulla vestibulum sit amet. Sed in ipsum velit. Nulla dictum ex at neque conval- lis ornare. Donec posuere erat lorem, nec iaculis tortor accumsan sit amet. Nulla id elit id ri- sus consectetur vehicula. Nam vitae lacinia magna, quis fringilla velit. Nulla rutrum lec- tus in suscipit molestie. Vestibulum in nunc sagittis, blandit sem malesuada, lacinia nisl. Sed facilisis imperdiet libero ut fringilla. Ut mattis maximus odio, nec fermentum justo malesuada eu. Etiam venenatis eget neque a pulvinar. Quisque lacinia sagittis ante fringilla euismod. Donec arcu elit, eleifend at tortor a, finibus feugiat elit. Vivamus id eros massa.</p>"
+              },
+              {
+                "text": "<p>Lerisque nec eros non, cursus efficitur massa. Suspendisse vel laoreet dolor, vel ultrices libe- ro. Etiam quam magna, sagittis eu libero ut, elementum placerat nisl. Vestibulum ac nunc ne- que. Praesent finibus aliquam nisi, id tincidunt lectus faucibus in. Morbi faucibus magna augue, et porttitor turpis hendrerit ut. Phasellus orci massa, placerat non consectetur ac, dapibus vi- tae lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus quis urna mauris. Nullam viverra purus augue, ac commodo erat lobortis.</p><p>Curabitur gravida egestas arcu ut sagittis. Quisque ac pharetra nulla. Ut varius odio velit, sit amet sagittis nulla vestibulum sit amet. Sed in ipsum velit. Nulla dictum ex at neque conval- lis ornare. Donec posuere erat lorem, nec iaculis tortor accumsan sit amet. Nulla id elit id ri- sus consectetur vehicula. Nam vitae lacinia magna, quis fringilla velit. Nulla rutrum lec- tus in suscipit molestie. Vestibulum in nunc sagittis, blandit sem malesuada, lacinia nisl. Sed facilisis imperdiet libero ut fringilla. Ut mattis maximus odio, nec fermentum justo malesuada eu. Etiam venenatis eget neque a pulvinar. Quisque lacinia sagittis ante fringilla euismod. Donec arcu elit, eleifend at tortor a, finibus feugiat elit. Vivamus id eros massa.</p>"
+              }
+            ]
+          }
+        },
+        {
+          "type": "BlockQuote",
+          "content": {
+            "text": "Nunc sagittis feugiat sce- lerisque. In eu sapien li- bero. Morbi et nisi quis justo facilisis finibus. Suspendisse arcu risus",
+            "author": "John Doe",
+            "source": "From the book: Lorem Ipsum",
+            "mode": "left"
+          }
+        },
+        {
+          "type": "BlockImageCenter",
+          "content": {
+            "type": "landscape",
+            "image": {
+              "src": "/images/chapter-1/slider-senegal/02_CAROUSSEL_001_SEN.jpg",
+              "alt": "cover image",
+              "width": 1701,
+              "height": 1134
+            },
+            "text": "<p>Nam vitae lacinia magna, quis fringilla velit. Nulla rutrum lec- tus in suscipit molestie. Vestibulum in nunc sagittis, blandit sem malesuada, lacinia nisl. Sed facilisis imperdiet libero ut fringilla. Ut mattis maximus odio, nec fermentum justo malesuada eu. Etiam venenatis eget neque a pulvinar.</p>"
+          }
+        },
+        {
+          "type": "BlockImageLeft",
+          "content": {
+            "type": "landscape",
+            "align": "top",
+            "image": {
+              "src": "/images/chapter-1/slider-senegal/03_CAROUSSEL_001_SEN.jpg",
+              "alt": "cover image",
+              "width": 1701,
+              "height": 1134
+            },
+            "text": "<p>Nam vitae lacinia magna, quis fringilla velit. Nulla rutrum lec- tus in suscipit molestie. Vestibulum in nunc sagittis, blandit sem malesuada, lacinia nisl. Sed facilisis imperdiet libero ut fringilla. Ut mattis maximus odio, nec fermentum justo malesuada eu. Etiam venenatis eget neque a pulvinar.</p>"
+          }
+        },
+        {
+          "type": "BlockImageLeft",
+          "content": {
+            "type": "portrait",
+            "align": "bottom",
+            "image": {
+              "src": "/images/chapter-2/PH_Water.jpg",
+              "alt": "cover image",
+              "width": 1134,
+              "height": 1701
+            },
+            "text": "<p>Nam vitae lacinia magna, quis fringilla velit. Nulla rutrum lec- tus in suscipit molestie. Vestibulum in nunc sagittis, blandit sem malesuada, lacinia nisl. Sed facilisis imperdiet libero ut fringilla. Ut mattis maximus odio, nec fermentum justo malesuada eu. Etiam venenatis eget neque a pulvinar.</p>"
+          }
+        },
+        {
+          "type": "BlockImageRight",
+          "content": {
+            "type": "landscape",
+            "align": "top",
+            "image": {
+              "src": "/images/chapter-1/slider-senegal/04_CAROUSSEL_001_SEN.jpg",
+              "alt": "cover image",
+              "width": 1701,
+              "height": 1134
+            },
+            "text": "<p>Nam vitae lacinia magna, quis fringilla velit. Nulla rutrum lec- tus in suscipit molestie. Vestibulum in nunc sagittis, blandit sem malesuada, lacinia nisl. Sed facilisis imperdiet libero ut fringilla. Ut mattis maximus odio, nec fermentum justo malesuada eu. Etiam venenatis eget neque a pulvinar.</p>"
+          }
+        },
+        {
+          "type": "BlockImageRight",
+          "content": {
+            "type": "portrait",
+            "align": "bottom",
+            "image": {
+              "src": "/images/chapter-2/PH_Water.jpg",
+              "alt": "cover image",
+              "width": 1134,
+              "height": 1701
+            },
+            "text": "<p>Nam vitae lacinia magna, quis fringilla velit. Nulla rutrum lec- tus in suscipit molestie. Vestibulum in nunc sagittis, blandit sem malesuada, lacinia nisl. Sed facilisis imperdiet libero ut fringilla. Ut mattis maximus odio, nec fermentum justo malesuada eu. Etiam venenatis eget neque a pulvinar.</p>"
+          }
+        },
+        {
+          "type": "BlockTextColumns",
+          "content": {
+            "texts": [
+              {
+                "text": "<p>Lerisque nec eros non, cursus efficitur massa. Suspendisse vel laoreet dolor, vel ultrices libe- ro. Etiam quam magna, sagittis eu libero ut, elementum placerat nisl. Vestibulum ac nunc ne- que. Praesent finibus aliquam nisi, id tincidunt lectus faucibus in. Morbi faucibus magna augue, et porttitor turpis hendrerit ut. Phasellus orci massa, placerat non consectetur ac, dapibus vi- tae lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus quis urna mauris. Nullam viverra purus augue, ac commodo erat lobortis.</p><p>Curabitur gravida egestas arcu ut sagittis. Quisque ac pharetra nulla. Ut varius odio velit, sit amet sagittis nulla vestibulum sit amet. Sed in ipsum velit. Nulla dictum ex at neque conval- lis ornare. Donec posuere erat lorem, nec iaculis tortor accumsan sit amet. Nulla id elit id ri- sus consectetur vehicula. Nam vitae lacinia magna, quis fringilla velit. Nulla rutrum lec- tus in suscipit molestie. Vestibulum in nunc sagittis, blandit sem malesuada, lacinia nisl. Sed facilisis imperdiet libero ut fringilla. Ut mattis maximus odio, nec fermentum justo malesuada eu. Etiam venenatis eget neque a pulvinar. Quisque lacinia sagittis ante fringilla euismod. Donec arcu elit, eleifend at tortor a, finibus feugiat elit. Vivamus id eros massa.</p>"
+              }
+            ]
+          }
+        },
+        {
+          "type": "BlockImageCenter",
+          "content": {
+            "type": "portrait",
+            "image": {
+              "src": "/images/chapter-1/slider-senegal/02_CAROUSSEL_001_SEN.jpg",
+              "alt": "cover image",
+              "width": 1134,
+              "height": 1701
+            },
+            "text": "<p>Nam vitae lacinia magna, quis fringilla velit. Nulla rutrum lec- tus in suscipit molestie. Vestibulum in nunc sagittis, blandit sem malesuada, lacinia nisl. Sed facilisis imperdiet libero ut fringilla. Ut mattis maximus odio, nec fermentum justo malesuada eu. Etiam venenatis eget neque a pulvinar.</p>"
+          }
+        }
+      ]
+    }
+  }
+}

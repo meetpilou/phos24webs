@@ -1,0 +1,16 @@
+{
+  "editor.wordWrapColumn": 120,
+  "editor.wordWrap": "on",
+  "eslint.options": {
+    "rules": {
+      "max-len": ["error", { "code": 120 }]
+    }
+  },
+  "vetur.format.defaultFormatter.html": "prettier",
+  "vetur.format.defaultFormatterOptions": {
+    "prettier": {
+      "printWidth": 120, // Ajustez la largeur des lignes selon vos besoins
+      "htmlWhitespaceSensitivity": "ignore"
+    }
+  }
+}

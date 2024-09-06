@@ -1,0 +1,11 @@
+index.php
+.htaccess
+.htaccess_preview
+robots.txt
+/storage
+/vendor
+/blocks
+/build
+/js
+/css
+.DS_Store
