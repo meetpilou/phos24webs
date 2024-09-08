@@ -1,7 +1,7 @@
 <template>
   <div class="footer-image">
-    <div class="lg:min-h-screen px-3">
-      <UiImage :image="image" />
+    <div class="lg:h-screen px-3">
+      <UiImage :image="image" class="h-full w-full" />
     </div>
   </div>
 </template>

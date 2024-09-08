@@ -5,7 +5,7 @@ export default {
     extend: {
       colors: {
         white: '#ffffff',
-        black: '#000000',
+        black: '#111317',
 
         // Generate color shades with: https://uicolors.app/create
         gold: {

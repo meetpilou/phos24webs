@@ -1,22 +1,21 @@
 <template>
-  <UiBlock class="footer-text relative">
-    <div class="col-span-8 col-start-2 lg:col-start-5 relative lg:min-h-screen z-10 border-white border-2">
+  <div class="footer-text relative">
+    <div class="lg:min-h-screen z-10 border-white border-2">
       <div class="w-full flex-end-start p-5">
-        <UiFontDin class="text-sm text-white">
+        <UiFontDin class="text-sm" color="white">
           {{ mol }}
         </UiFontDin>
       </div>
-      <div class="grid-cols-8 grid pt-40 pb-36">
+      <div class="grid-cols-8 grid py-20 md:py-28 lg:py-32">
         <UiText :text="text" class="col-span-6 col-start-2" />
       </div>
       <div class="w-full flex-end-start p-5">
-        <UiFontDin class="text-sm text-white">
+        <UiFontDin class="text-sm" color="white">
           {{ phosphate }}
         </UiFontDin>
       </div>
     </div>
-    <div class="bg-gradient-to-t from-black/100 to-black/0 fit z-0" />
-  </UiBlock>
+  </div>
 </template>
 
 <script setup>

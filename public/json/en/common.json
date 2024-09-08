@@ -1,11 +1,84 @@
 {
   "footer": {
-    "text": "<p>Lerisque nec eros non, cursus efficitur massa. Suspendisse vel laoreet dolor, vel ultrices libe- ro. Etiam quam magna, sagittis eu libero ut, elementum placerat nisl. Vestibulum ac nunc ne- que. Praesent finibus aliquam nisi, id tincidunt lectus faucibus in. Morbi faucibus magna augue, et porttitor turpis hendrerit ut. Phasellus orci massa, placerat non consectetur ac, dapibus vi- tae lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus quis urna mauris. Nullam viverra purus augue, ac commodo erat lobortis ac.Curabitur gravida egestas arcu ut sagittis. Quisque ac pharetra nulla. Ut varius odio velit, sit amet sagittis nulla vestibulum sit amet. Sed in ipsum velit. Nulla dictum ex at neque conval- lis ornare. Donec posuere erat lorem, nec iaculis tortor accumsan sit amet. Nulla id elit id ri- sus consectetur vehicula. Nam vitae lacinia magna, quis fringilla velit. Nulla rutrum lec- tus in suscipit molestie. Vestibulum in nunc sagittis, blandit sem malesuada, lacinia nisl. Sed facilisis imperdiet libero ut fringilla.</p>",
+    "outro": "<p>Lerisque nec eros non, cursus efficitur massa. Suspendisse vel laoreet dolor, vel ultrices libe- ro. Etiam quam magna, sagittis eu libero ut, elementum placerat nisl. Vestibulum ac nunc ne- que. Praesent finibus aliquam nisi, id tincidunt lectus faucibus in. Morbi faucibus magna augue, et porttitor turpis hendrerit ut. Phasellus orci massa, placerat non consectetur ac, dapibus vi- tae lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.<br>Phasellus quis urna mauris. Nullam viverra purus augue, ac commodo erat lobortis ac.Curabitur gravida egestas arcu ut sagittis. Quisque ac pharetra nulla. Ut varius odio velit, sit amet sagittis nulla vestibulum sit amet. Sed in ipsum velit. Nulla dictum ex at neque conval- lis ornare. Donec posuere erat lorem, nec iaculis tortor accumsan sit amet. Nulla id elit id ri- sus consectetur vehicula. Nam vitae lacinia magna, quis fringilla velit. Nulla rutrum lec- tus in suscipit molestie. Vestibulum in nunc sagittis, blandit sem malesuada, lacinia nisl. Sed facilisis imperdiet libero ut fringilla.</p>",
     "image": {
       "alt": "Logo",
       "src": "/images/_IM50023.jpg",
       "width": 1928,
       "height": 1285
+    },
+    "credits": {
+      "title": "Credits",
+      "text": "La production des images a bénéficié de la Bourse photographie 2020 de la Fondation Jean-Luc Lagardère",
+      "items": [
+        {
+          "label": "Une enquête de",
+          "value": "Laurence Grun - Pierre Vanneste"
+        },
+        {
+          "label": "Copywriter",
+          "value": "Laurence Grun"
+        },
+        {
+          "label": "Image - Photography",
+          "value": "Pierre Vanneste"
+        },
+        {
+          "label": "Image - Drone",
+          "value": "Antoine Castro"
+        },
+        {
+          "label": "Music",
+          "value": "Eric Desjeux"
+        },
+        {
+          "label": "Editing video",
+          "value": "Antoine Castro"
+        },
+        {
+          "label": "Sound Mixing",
+          "value": "Enzo Tibi"
+        },
+        {
+          "label": "Maps Designer",
+          "value": "Freddy Mercure"
+        },
+        {
+          "label": "Web Developer",
+          "value": "Pierre Lovenfosse"
+        },
+        {
+          "label": "Web Designer",
+          "value": "François Martin"
+        },
+        {
+          "label": "Translator",
+          "value": "Fidel Antoine"
+        },
+        {
+          "label": "Reviser & Corrector (fr)",
+          "value": "Laurence Grun"
+        },
+        {
+          "label": "Reviser & Corrector (en)",
+          "value": "Laurence Grun"
+        },
+        {
+          "label": "Production du longform",
+          "value": "Nuit Noire production & la revue TCHAK"
+        }
+      ]
+    },
+    "partners": {
+      "tchak": {
+        "title": "diffusion"
+      },
+      "nuit_noire": {
+        "title": "production"
+      }
+    },
+    "copyright": {
+      "text": "© 2024 All rights reserved."
     }
   }
 }

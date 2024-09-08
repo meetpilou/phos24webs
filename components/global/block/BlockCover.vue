@@ -3,7 +3,6 @@
     <CoverBar />
     <CoverContent :title="content.title" :text-1="content.text_1" :text-2="content.text_2" />
     <CoverImage :image="content.image" />
-    <CoverP2O5 />
   </section>
 </template>
 
@@ -24,6 +23,25 @@ const props = defineProps({
       },
     }),
   },
+})
+
+// const root = ref(null)
+// const sticky = ref(null)
+
+onMounted(() => {
+  // const { $gsap } = useNuxtApp()
+  // const rootEl = useElement(root)
+  // const stickyEl = useElement(sticky)
+  // $gsap.to(stickyEl, {
+  //   scrollTrigger: {
+  //     trigger: rootEl,
+  //     start: 'top top',
+  //     end: 'bottom bottom',
+  //     pin: true,
+  //     pinSpacing: false,
+  //     scrub: true,
+  //   },
+  // })
 })
 </script>
 

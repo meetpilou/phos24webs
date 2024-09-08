@@ -30,6 +30,7 @@ const classes = {
   'font-light': props.weight === 'light',
   'font-normal': props.weight === 'normal',
   'font-medium': props.weight === 'medium',
+  'font-demi': props.weight === 'demi',
   'font-bold': props.weight === 'bold',
   'text-black': props.color === 'black',
   'text-white': props.color === 'white',
