@@ -3,7 +3,7 @@
     <div class="relative">
       <div class="padding-global">
         <div class="main-grid relative z-10">
-          <div class="col-span-8 col-start-2 lg:col-start-5">
+          <div class="col-span-10 md:col-span-8 md:col-start-2 lg:col-start-5">
             <FooterText :text="outro" />
           </div>
         </div>
@@ -14,7 +14,7 @@
     <div class="relative z-10 bg-black">
       <div class="padding-global">
         <div class="main-grid">
-          <div class="col-span-8 col-start-2 lg:col-start-5">
+          <div class="col-span-10 md:col-span-8 md:col-start-2 lg:col-start-5">
             <FooterCredits
               class="mt-24 md:mt-44 mb-24 md:mb-32"
               :title="credits.title"

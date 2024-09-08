@@ -19,6 +19,7 @@
     "@vimeo/player": "^2.24.0",
     "@vueuse/nuxt": "^11.0.3",
     "gsap": "npm:@gsap/shockingly@latest",
+    "lenis": "^1.1.13",
     "swiper": "^11.1.12",
     "vue": "latest",
     "vue-social-sharing": "^3.0.9"

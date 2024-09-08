@@ -1,7 +1,7 @@
 <template>
   <div
     :class="classes"
-    class="navigation-button-item w-4 h-4 border border-gold transition-colors duration-500 hover:bg-gold"
+    class="navigation-button-item w-4 h-4 border border-gold transition-colors duration-700 hover:bg-gold"
     @click="handleClick"
   />
 </template>

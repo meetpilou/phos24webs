@@ -1,6 +1,6 @@
 <template>
   <div class="footer-image">
-    <div class="lg:h-screen px-3">
+    <div class="h-screen md:px-3">
       <UiImage :image="image" class="h-full w-full" />
     </div>
   </div>

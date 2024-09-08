@@ -1,8 +1,8 @@
 <template>
-  <div class="app">
+  <div class="app bg-transparent">
     <TheHead />
     <TheHeader />
-    <NavigationButton />
+    <NavigationBottom />
 
     <main class="overflow-clip">
       <slot />
@@ -17,10 +17,11 @@
 <script setup>
 import 'swiper/css'
 import 'swiper/css/scrollbar'
+import Lenis from 'lenis'
 import { register } from 'swiper/element/bundle'
-
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
 register()
-
+const { $gsap } = useNuxtApp()
 const { fetchGlobalData } = useCommon()
 // const { init: initCookies, ready } = useCookieManager()
 
@@ -40,6 +41,16 @@ await fetchGlobalData()
 
 onMounted(() => {
   // initCookies()
+
+  const lenis = new Lenis()
+
+  lenis.on('scroll', ScrollTrigger.update)
+
+  $gsap.ticker.add((time) => {
+    lenis.raf(time * 1000)
+  })
+
+  $gsap.ticker.lagSmoothing(0)
 
   if (process.env.NODE_ENV === 'production') {
     console.log(
