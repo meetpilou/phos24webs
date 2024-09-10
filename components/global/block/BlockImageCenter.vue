@@ -1,8 +1,9 @@
 <template>
   <UiBlock class="section-image-center">
     <div :class="innerClasses">
-      <div class="overflow-hidden relative z-0">
-        <UiImage :image="content.image" v-if="content.image" />
+      <div ref="container" class="overflow-hidden relative z-0 antialiasing">
+        <UiImage :image="content.image" v-if="content.image" class="antialiasing" />
+        <div ref="overlay" class="bg-white fit z-10 antialiasing" />
       </div>
       <div :class="textClasses">
         <UiText :text="content.text" inverted />
@@ -12,7 +13,8 @@
 </template>
 
 <script setup>
-import { computed } from 'vue'
+import useScrollClipAnimation from '~/composables/useScrollClipAnimation'
+const { targetElement: container, animatedElement: overlay } = useScrollClipAnimation()
 
 const props = defineProps({
   content: {

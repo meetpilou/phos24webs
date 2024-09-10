@@ -1,6 +1,6 @@
 <template>
   <div class="footer-text relative">
-    <div class="lg:min-h-screen z-10 border-white border-2">
+    <div class="z-10 border-white border-2">
       <div class="w-full flex-end-start p-5">
         <UiFontDin class="text-sm" color="white">
           {{ mol }}

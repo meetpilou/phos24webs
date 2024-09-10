@@ -4,7 +4,7 @@
       <li v-for="lang in locales" :key="lang.code">
         <NuxtLink
           :to="switchLocalePath(lang.code)"
-          class="uppercase text-xs decoration-gold-500 decoration underline-offset-4 font-title font-light"
+          class="uppercase text-sm decoration-gold-500 decoration underline-offset-4 font-title font-light"
           :class="[
             locale === lang.code ? 'opacity-100' : 'opacity-30',
             {

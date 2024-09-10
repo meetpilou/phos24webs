@@ -2,9 +2,9 @@
   <UiBlock class="section-quote">
     <div :class="classes">
       <UiFontNoto tag="blockquote" class="mb-8 text-5xl leading-tight relative">
-        <span class="absolute top-0 -left-8 text-5xl text-gold">“</span>
+        <span class="absolute top-0 -left-8 text-gold">“</span>
         {{ content.text }}
-        <span class="absolute -bottom-14 right-0 text-5xl text-gold">”</span>
+        <span class="absolute -bottom-14 right-0 text-gold">”</span>
       </UiFontNoto>
       <p class="flex-start-start gap-0 flex-col text-sm">
         <UiFontDin tag="span">{{ content.author }}</UiFontDin>

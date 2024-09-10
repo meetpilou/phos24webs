@@ -5,7 +5,7 @@
         <div class="col-span-5 max-lg:hidden">
           <CoverP2O5 />
         </div>
-        <div class="col-span-10 md:col-span-8 md:col-start-2 lg:col-span-6">
+        <div class="col-span-10 md:col-span-8 md:col-start-2 lg:col-span-6 pb-12">
           <CoverContentTop :title="title" v-if="title && text1" :text="text1" />
           <CoverContentBottom :text="text2" v-if="text2" />
         </div>

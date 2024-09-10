@@ -1,19 +1,20 @@
 <template>
   <UiBlock class="section-image-left">
-    <div :class="imageClasses">
-      <UiImage ref="image" :image="content.image" />
+    <div ref="container" :class="imageClasses" class="antialiasing">
+      <UiImage :image="content.image" class="antialiasing" />
+      <div ref="overlay" class="bg-white fit z-10 antialiasing" />
     </div>
     <div :class="textClasses">
       <div class="md:col-span-4 md:col-start-2">
         <UiText :text="content.text" inverted />
       </div>
     </div>
-    <!-- <div class="col-span-4"></div> -->
   </UiBlock>
 </template>
 
 <script setup>
-import { computed } from 'vue'
+import useScrollClipAnimation from '~/composables/useScrollClipAnimation'
+const { targetElement: container, animatedElement: overlay } = useScrollClipAnimation()
 
 const props = defineProps({
   content: {
@@ -33,7 +34,7 @@ const props = defineProps({
 })
 
 const imageClasses = computed(() => {
-  const classes = ['-ml-7 md:-ml-4']
+  const classes = ['-ml-7 md:-ml-4 relative']
 
   if (props.content.type === 'landscape') {
     classes.push('col-span-10')

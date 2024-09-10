@@ -1,14 +1,17 @@
 <template>
   <div class="footer-image">
     <div class="h-screen md:px-3">
-      <UiImage :image="image" class="h-full w-full" />
+      <UiImage ref="image" :image="media" class="h-full w-full" />
     </div>
   </div>
 </template>
 
 <script setup>
+import useScrollScaleAnimation from '~/composables/useScrollScaleAnimation'
+const { targetElement: image } = useScrollScaleAnimation()
+
 defineProps({
-  image: {
+  media: {
     type: Object,
     required: true,
     default: () => ({

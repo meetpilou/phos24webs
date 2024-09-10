@@ -17,9 +17,13 @@
 <script setup>
 import 'swiper/css'
 import 'swiper/css/scrollbar'
+import 'swiper/css/navigation'
+import 'swiper/css/parallax'
+
 import Lenis from 'lenis'
 import { register } from 'swiper/element/bundle'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
+
 register()
 const { $gsap } = useNuxtApp()
 const { fetchGlobalData } = useCommon()

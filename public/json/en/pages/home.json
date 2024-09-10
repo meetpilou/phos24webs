@@ -97,6 +97,39 @@
           }
         },
         {
+          "type": "BlockGallery",
+          "content": {
+            "type": "landscape",
+            "images": [
+              {
+                "src": "/images/chapter-1/slider-senegal/03_CAROUSSEL_001_SEN.jpg",
+                "alt": "cover image",
+                "width": 1701,
+                "height": 1134
+              },
+              {
+                "src": "/images/chapter-1/slider-senegal/04_CAROUSSEL_001_SEN.jpg",
+                "alt": "cover image",
+                "width": 1701,
+                "height": 1134
+              },
+              {
+                "src": "/images/chapter-1/slider-senegal/05_CAROUSSEL_001_SEN.jpg",
+                "alt": "cover image",
+                "width": 1701,
+                "height": 1134
+              },
+              {
+                "src": "/images/chapter-1/slider-senegal/06_CAROUSSEL_001_SEN.jpg",
+                "alt": "cover image",
+                "width": 1701,
+                "height": 1134
+              }
+            ]
+          }
+        },
+
+        {
           "type": "BlockImageLeft",
           "content": {
             "type": "landscape",

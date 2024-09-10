@@ -11,7 +11,6 @@
       :class="childClass"
       :placeholder="[image.width, image.height, 90, 25]"
     />
-    <div ref="animated" class="bg-black fit z-10" />
     <div class="bg-gradient-to-t from-black/100 to-black/0 fit z-10" v-if="showGradient" />
   </div>
 </template>
@@ -52,8 +51,6 @@ const props = defineProps({
 })
 
 const root = ref(null)
-const img = ref(null)
-const animated = ref(null)
 
 const parentClass = computed(() => {
   return {
@@ -64,38 +61,12 @@ const parentClass = computed(() => {
 
 const childClass = computed(() => {
   const classes = ['transition-all duration-700 w-full mask-parent-img']
-
   if (props.contain) {
     classes.push('object-contain h-auto')
   } else {
     classes.push('object-cover h-full')
   }
-
   return classes
-})
-
-onMounted(() => {
-  const { $gsap } = useNuxtApp()
-
-  $gsap.fromTo(
-    useElement(animated),
-    {
-      opacity: 0,
-      y: 100,
-    },
-    {
-      opacity: 1,
-      y: 0,
-      scrollTrigger: {
-        trigger: useElement(img),
-        start: 'top 80%',
-        end: 'bottom top',
-        scrub: true,
-        markers: true,
-        toggleActions: 'play reverse play reverse',
-      },
-    },
-  )
 })
 </script>
 

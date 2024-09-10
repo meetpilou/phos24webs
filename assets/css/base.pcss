@@ -1,7 +1,6 @@
 @layer base {
   :root {
     /* Responsive font-size */
-
     --font-from-0: 10;
     --font-to-0: 14;
     --vw-from-0: calc(1 / 100);
@@ -44,6 +43,10 @@
     --coefficient-5: calc((var(--font-to-5) - var(--font-from-5)) / (var(--vw-to-5) - var(--vw-from-5)));
     --base-5: calc((var(--font-from-5) - var(--vw-from-5) * var(--coefficient-5)) / 16);
 
+    --font-scale: 0.7vw; /* base:  1vw;*/
+  }
+
+  :root {
     --swiper-theme-color: theme('colors.gold.500');
     --swiper-pagination-color: theme('colors.gold.500');
     --swiper-navigation-color: theme('colors.gold.500');
@@ -59,35 +62,32 @@
     --swiper-scrollbar-size: 2px;
   }
 
-  :root {
-  }
-
   html {
-    font-size: calc(var(--base-5) * 1rem + var(--coefficient-5) * 1vw);
+    font-size: calc(var(--base-5) * 1rem + var(--coefficient-5) * var(--font-scale));
   }
   @media screen and (max-width: 3840px) {
     html {
-      font-size: calc(var(--base-4) * 1rem + var(--coefficient-4) * 1vw);
+      font-size: calc(var(--base-4) * 1rem + var(--coefficient-4) * var(--font-scale));
     }
   }
   @media screen and (max-width: 1920px) {
     html {
-      font-size: calc(var(--base-3) * 1rem + var(--coefficient-3) * 1vw);
+      font-size: calc(var(--base-3) * 1rem + var(--coefficient-3) * var(--font-scale));
     }
   }
   @media screen and (max-width: 1440px) {
     html {
-      font-size: calc(var(--base-2) * 1rem + var(--coefficient-2) * 1vw);
+      font-size: calc(var(--base-2) * 1rem + var(--coefficient-2) * var(--font-scale));
     }
   }
   @media screen and (max-width: 960px) {
     html {
-      font-size: calc(var(--base-1) * 1rem + var(--coefficient-1) * 1vw);
+      font-size: calc(var(--base-1) * 1rem + var(--coefficient-1) * var(--font-scale));
     }
   }
   @media screen and (max-width: 479px) {
     html {
-      font-size: calc(var(--base-0) * 1rem + var(--coefficient-0) * 1vw);
+      font-size: calc(var(--base-0) * 1rem + var(--coefficient-0) * var(--font-scale));
     }
   }
 

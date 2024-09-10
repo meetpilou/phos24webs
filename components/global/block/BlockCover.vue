@@ -1,5 +1,5 @@
 <template>
-  <section class="section-cover min-h-[200dvh] bg-black relative !pb-12 !pt-0">
+  <section class="section-cover min-h-[200dvh] bg-black relative !pb-0 !pt-0">
     <CoverBar />
     <CoverContent :title="content.title" :text-1="content.text_1" :text-2="content.text_2" />
     <CoverImage :image="content.image" />
