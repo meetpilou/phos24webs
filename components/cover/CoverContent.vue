@@ -2,7 +2,7 @@
   <div class="cover-content">
     <div class="padding-global">
       <div class="main-grid relative z-20">
-        <div class="col-span-5 max-lg:hidden">
+        <div class="col-span-10 max-lg:-ml-6 max-lg:-mr-6 lg:col-span-5">
           <CoverP2O5 />
         </div>
         <div class="col-span-10 md:col-span-8 md:col-start-2 lg:col-span-6 pb-12">

@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="overflow-clip bg-white">
     <div :class="{ 'py-12 lg:py-28': !removePadding }">
       <div :class="paddingClass">
         <div class="main-grid">

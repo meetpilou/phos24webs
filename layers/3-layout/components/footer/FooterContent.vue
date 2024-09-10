@@ -16,7 +16,7 @@
         <div class="main-grid">
           <div class="col-span-10 md:col-span-8 md:col-start-2 lg:col-start-5">
             <FooterCredits
-              class="mt-24 md:mt-44 mb-24 md:mb-32"
+              class="mt-16 md:mt-44 mb-16 md:mb-32"
               :title="credits.title"
               :text="credits.text"
               :items="credits.items"

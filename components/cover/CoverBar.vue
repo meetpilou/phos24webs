@@ -1,17 +1,17 @@
 <template>
-  <div class="cover-bar absolute top-0 left-0 right-0 z-10">
+  <div class="cover-bar absolute top-0 left-0 right-0 z-30 text-sm">
     <div class="padding-global">
       <div class="relative h-20 main-grid">
         <div class="col-span-5 lg:col-span-5 h-full">
           <div class="flex-start-center lg:flex-start-center h-full">
-            <UiFontDin class="text-sm text-white">
+            <UiFontDin class="text-white">
               {{ phosphate }}
             </UiFontDin>
           </div>
         </div>
         <div class="col-span-5 lg:col-span-11 h-full">
           <div class="flex-end-center lg:flex-start-center h-full">
-            <UiFontDin class="text-sm text-white">
+            <UiFontDin class="text-white">
               {{ mol }}
             </UiFontDin>
           </div>

@@ -1,15 +1,15 @@
 @layer base {
   :root {
     /* Responsive font-size */
-    --font-from-0: 10;
-    --font-to-0: 14;
+    --font-from-0: 16;
+    --font-to-0: 16;
     --vw-from-0: calc(1 / 100);
     --vw-to-0: calc(479 / 100);
     --coefficient-0: calc((var(--font-to-0) - var(--font-from-0)) / (var(--vw-to-0) - var(--vw-from-0)));
     --base-0: calc((var(--font-from-0) - var(--vw-from-0) * var(--coefficient-0)) / 16);
 
-    --font-from-1: 12;
-    --font-to-1: 14;
+    --font-from-1: 14;
+    --font-to-1: 16;
     --vw-from-1: calc(479 / 100);
     --vw-to-1: calc(960 / 100);
     --coefficient-1: calc((var(--font-to-1) - var(--font-from-1)) / (var(--vw-to-1) - var(--vw-from-1)));
@@ -43,7 +43,7 @@
     --coefficient-5: calc((var(--font-to-5) - var(--font-from-5)) / (var(--vw-to-5) - var(--vw-from-5)));
     --base-5: calc((var(--font-from-5) - var(--vw-from-5) * var(--coefficient-5)) / 16);
 
-    --font-scale: 0.7vw; /* base:  1vw;*/
+    --font-scale: 1vw; /* base:  1vw;*/
   }
 
   :root {

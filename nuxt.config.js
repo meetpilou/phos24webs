@@ -3,7 +3,7 @@ import routes from './routes.json'
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
-  devtools: { enabled: true },
+  devtools: { enabled: false },
 
   modules: ['@nuxt/image', '@nuxtjs/i18n', '@nuxtjs/tailwindcss', '@vueuse/nuxt', '@nuxt/icon'],
 

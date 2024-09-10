@@ -1,6 +1,6 @@
 <template>
   <UiBlock class="section-gallery relative">
-    <div ref="container" class="col-span-12 col-start-3 antialiasing">
+    <div ref="container" class="col-span-10 md:col-span-8 md:col-start-2 lg:col-span-12 lg:col-start-3 antialiasing">
       <swiper-container ref="swiper" init="false" class="overflow-hidden">
         <swiper-slide v-for="(image, i) in content.images" :key="i" class="overflow-hidden">
           <UiImage :image="image" class="antialiasing" data-swiper-parallax="-15%" />
@@ -149,5 +149,3 @@ onMounted(async () => {
 //   return classes
 // })
 </script>
-
-<style lang="postcss"></style>

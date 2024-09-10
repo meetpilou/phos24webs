@@ -19,9 +19,9 @@ defineProps({
 </script>
 <style lang="postcss">
 section:first-of-type {
-  @apply pt-28;
+  @apply pt-2 lg:pt-28;
 }
 section:last-of-type {
-  @apply pb-28;
+  @apply pb-2 lg:pb-28;
 }
 </style>

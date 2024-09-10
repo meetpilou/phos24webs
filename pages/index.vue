@@ -1,7 +1,15 @@
 <template>
-  <div :data-chapter="key.split('-')[1]" :class="key" v-for="(chapter, key) in data?.chapters" :key="key">
-    <TheBookMark v-if="chapter.bookmark" :content="chapter.bookmark" />
-    <TheBlockGenerator v-if="chapter?.blocks" :blocks="chapter.blocks" />
+  <div
+    :data-chapter="key.split('-')[1]"
+    :class="key"
+    v-for="(chapter, key) in data?.chapters"
+    :key="key"
+    class="relative"
+  >
+    <div class="bg-white">
+      <TheBookMark v-if="chapter.bookmark" :content="chapter.bookmark" />
+      <TheBlockGenerator v-if="chapter?.blocks" :blocks="chapter.blocks" />
+    </div>
   </div>
 </template>
 

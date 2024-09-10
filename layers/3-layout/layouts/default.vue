@@ -20,15 +20,15 @@ import 'swiper/css/scrollbar'
 import 'swiper/css/navigation'
 import 'swiper/css/parallax'
 
-import Lenis from 'lenis'
 import { register } from 'swiper/element/bundle'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
 register()
-const { $gsap } = useNuxtApp()
-const { fetchGlobalData } = useCommon()
+
+const { $gsap, $lenis } = useNuxtApp()
 // const { init: initCookies, ready } = useCookieManager()
 
+const { fetchGlobalData } = useCommon()
 await fetchGlobalData()
 
 // if (window.errorMessage || window.errorStatus) {
@@ -43,15 +43,13 @@ await fetchGlobalData()
 //   })
 // }
 
+let lenis
+
 onMounted(() => {
-  // initCookies()
-
-  const lenis = new Lenis()
-
-  lenis.on('scroll', ScrollTrigger.update)
+  $lenis.on('scroll', ScrollTrigger.update)
 
   $gsap.ticker.add((time) => {
-    lenis.raf(time * 1000)
+    $lenis.raf(time * 1000)
   })
 
   $gsap.ticker.lagSmoothing(0)

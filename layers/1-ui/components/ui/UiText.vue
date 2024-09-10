@@ -101,16 +101,16 @@ const classes = computed(() => ['ui-text', { inverted: props.inverted }])
   }
 
   blockquote + p {
-    @apply font-title font-regular text-sm flex justify-start items-start flex-col uppercase leading-none m-0 mb-24;
+    @apply font-title font-regular text-xs flex justify-start items-start flex-col uppercase leading-none m-0 mb-24;
   }
 
   cite {
-    @apply font-title font-regular text-sm not-italic uppercase leading-none text-gold;
+    @apply font-title font-regular text-xs not-italic uppercase leading-none text-gold;
   }
 
   p,
   li {
-    @apply text-white leading-normal font-text font-200 text-xl;
+    @apply text-white leading-normal font-text font-200 text-lg;
   }
 
   p {

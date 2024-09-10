@@ -1,7 +1,6 @@
 <template>
-  <footer class="footer relative">
-    <FooterImage :media="footer.image" class="top-0 left-0 sticky z-0" />
-
+  <footer class="footer relative overflow-clip">
+    <FooterImage :media="footer.image" class="top-0 left-0 right-0 sticky z-0" />
     <div class="pt-12 lg:pt-28 relative z-20">
       <FooterContent :outro="footer.outro" :credits="footer.credits" :partners="footer.partners" />
       <FooterCopyright :text="footer.copyright.text" />
